@@ -14,6 +14,7 @@ class TestCountdown:
         sys.stdout = sys.__stdout__
         assert(captured_out.getvalue() == "5 SECOND(S)!\n4 SECOND(S)!\n" + \
             "3 SECOND(S)!\n2 SECOND(S)!\n1 SECOND(S)!\nHAPPY NEW YEAR!\n")
+        countdown_with_sleep
 
 class TestCountdownWithSleep:
     '''Function countdown_with_sleep() in countdown.py'''
